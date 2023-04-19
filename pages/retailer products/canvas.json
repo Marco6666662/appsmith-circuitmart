@@ -1375,7 +1375,7 @@
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "TEXT",
+                      "inputType": "NUMBER",
                       "isDisabled": false,
                       "key": "hajietgark",
                       "labelTextSize": "0.875rem",
