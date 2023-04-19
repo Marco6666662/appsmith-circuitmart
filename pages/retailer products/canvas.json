@@ -533,15 +533,15 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 16,
-              "bottomRow": 55,
+              "topRow": 12,
+              "bottomRow": 51,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 14.0625,
-              "leftColumn": 4,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -786,6 +786,7 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 11.9921875,
+                      "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 2,
                       "dynamicBindingPathList": [
@@ -811,7 +812,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Label",
+                      "label": "Date Listed",
                       "version": 2,
                       "parentId": "qe9kk1h3c9",
                       "labelAlignment": "left",
@@ -1078,7 +1079,7 @@
               "key": "kjgz80kwvb",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 32,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "udywx6yes5",
               "minWidth": 450,
@@ -1087,10 +1088,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 16,
+              "originalTopRow": 12,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 55,
+              "originalBottomRow": 51,
               "minDynamicHeight": 10
             }
           ]
