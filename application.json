@@ -7,6 +7,10 @@
     {
       "id": "customer order",
       "isDefault": false
+    },
+    {
+      "id": "retailer products",
+      "isDefault": false
     }
   ],
   "viewMode": false,
