@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/order_products/{{orderid.text}}"
+        "url": "web:4000/c/order_products/{{Table1.selectedRow.order_id }}"
       },
       "invalids": [],
       "messages": [],
@@ -36,12 +36,16 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "orderid.text"
+      "Table1.selectedRow.order_id "
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
