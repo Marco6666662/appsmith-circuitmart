@@ -171,7 +171,7 @@
                       "isDefaultClickDisabled": true,
                       "widgetId": "5y2i4uuooc",
                       "minWidth": 120,
-                      "isVisible": false,
+                      "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
                       "parentId": "w17pkjeg69",
