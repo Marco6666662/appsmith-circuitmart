@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "customer order",
+      "isDefault": false
     }
   ],
   "viewMode": false,
