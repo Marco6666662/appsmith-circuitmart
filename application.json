@@ -11,6 +11,10 @@
     {
       "id": "Retailers Address",
       "isDefault": false
+    },
+    {
+      "id": "retailer products",
+      "isDefault": false
     }
   ],
   "viewMode": false,
