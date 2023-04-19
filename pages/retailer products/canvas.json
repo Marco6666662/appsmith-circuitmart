@@ -52,9 +52,6 @@
                   "key": "primaryColumns.category.computedValue"
                 },
                 {
-                  "key": "primaryColumns.class.computedValue"
-                },
-                {
                   "key": "primaryColumns.date_listed.computedValue"
                 },
                 {
@@ -83,6 +80,9 @@
                 },
                 {
                   "key": "primaryColumns.prod_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.prod_class.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -120,7 +120,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681912186668,
+              "columnUpdatedAt": 1681915008070,
               "originalBottomRow": 172,
               "defaultSelectedRowIndices": [
                 0
@@ -131,7 +131,6 @@
                 "prod_id",
                 "ret_id",
                 "category",
-                "class",
                 "price",
                 "stock",
                 "date_listed",
@@ -139,7 +138,8 @@
                 "page_views",
                 "rating",
                 "reviews",
-                "prod_name"
+                "prod_name",
+                "prod_class"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -180,35 +180,6 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{retailer_products_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"category\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
-                "class": {
-                  "allowCellWrapping": false,
-                  "index": 1,
-                  "width": 150,
-                  "originalId": "class",
-                  "id": "class",
-                  "alias": "class",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "Class",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{retailer_products_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -499,6 +470,35 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{retailer_products_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"prod_name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "prod_class": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "prod_class",
+                  "id": "prod_class",
+                  "alias": "prod_class",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "prod_class",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{retailer_products_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"prod_class\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
