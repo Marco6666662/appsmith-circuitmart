@@ -92,7 +92,7 @@
                       "parentColumnSpace": 7.7001953125,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 4,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -109,7 +109,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 35,
+                      "rightColumn": 33,
                       "dynamicHeight": "FIXED",
                       "widgetId": "kbb369tz4w",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -154,7 +154,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 43,
+                      "leftColumn": 48,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -167,7 +167,7 @@
                       "isDisabled": false,
                       "key": "hu8b1tyadc",
                       "isDeprecated": false,
-                      "rightColumn": 59,
+                      "rightColumn": 64,
                       "isDefaultClickDisabled": true,
                       "widgetId": "5y2i4uuooc",
                       "minWidth": 120,
@@ -1022,20 +1022,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "customer order_customers_orders",
-              "name": "customers_orders",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "custid.text"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "customer order",
