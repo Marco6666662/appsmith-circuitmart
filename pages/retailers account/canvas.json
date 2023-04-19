@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Retailers Address",
-    "slug": "retailers-address",
+    "name": "retailers account",
+    "slug": "retailers-account",
     "layouts": [
       {
         "viewMode": false,
@@ -1845,7 +1845,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Retailers Address_Retailer_info",
+              "id": "retailers account_Retailer_info",
               "name": "Retailer_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -1858,7 +1858,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Retailers Address",
+        "id": "retailers account",
         "deleted": false,
         "policies": [],
         "userPermissions": []
