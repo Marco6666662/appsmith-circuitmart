@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Retailers Address",
+    "pageId": "retailers account",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -63,7 +63,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Retailers Address_Update_Retailers_Address",
+  "id": "retailers account_Update_Retailers_Address",
   "deleted": false,
   "gitSyncId": "643f8748e95a6f089b10f85f_643f9e82e95a6f089b10f871"
 }
