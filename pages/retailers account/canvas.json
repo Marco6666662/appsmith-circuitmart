@@ -722,7 +722,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "currentItemsView": "{{[]}}",
                       "triggeredItemView": "{{{}}}",
-                      "widgetName": "Details",
+                      "widgetName": "Details1",
                       "requiresFlatWidgetChildren": true,
                       "listData": "{{Retailer_info.data}}",
                       "isCanvas": true,
@@ -738,7 +738,7 @@
                       "templateBottomRow": 16,
                       "mainContainerId": "ggnm4zz5pv",
                       "animateLoading": true,
-                      "primaryKeys": "{{Details.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+                      "primaryKeys": "{{Details1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
                       "parentColumnSpace": 6.8974609375,
                       "dynamicTriggerPathList": [],
                       "dynamicBindingPathList": [
