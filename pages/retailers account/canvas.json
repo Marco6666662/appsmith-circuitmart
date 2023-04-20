@@ -722,7 +722,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "currentItemsView": "{{[]}}",
                       "triggeredItemView": "{{{}}}",
-                      "widgetName": "list1",
+                      "widgetName": "Details",
                       "requiresFlatWidgetChildren": true,
                       "listData": "{{Retailer_info.data}}",
                       "isCanvas": true,
@@ -738,7 +738,7 @@
                       "templateBottomRow": 16,
                       "mainContainerId": "ggnm4zz5pv",
                       "animateLoading": true,
-                      "primaryKeys": "{{list1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+                      "primaryKeys": "{{Details.listData.map((currentItem, currentIndex) => currentItem[\"ret_id\"] )}}",
                       "parentColumnSpace": 6.8974609375,
                       "dynamicTriggerPathList": [],
                       "dynamicBindingPathList": [
@@ -1336,7 +1336,7 @@
                                       "minDynamicHeight": 4
                                     },
                                     {
-                                      "widgetName": "Text8CopyCopyCopyCopy1",
+                                      "widgetName": "Street_value",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                                       "searchTags": [
