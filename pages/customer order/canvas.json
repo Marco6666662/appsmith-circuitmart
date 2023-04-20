@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 45,
           "parentRowSpace": 1,
@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 3,
-              "bottomRow": 48,
+              "bottomRow": 68,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 450,
+                  "bottomRow": 650,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -188,7 +188,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 18,
+                      "topRow": 14,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -217,9 +217,6 @@
                         },
                         {
                           "key": "primaryColumns.order_status.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.quantity.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -258,7 +255,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1681912740758,
+                      "columnUpdatedAt": 1682008280140,
                       "primaryColumnId": "cust_id",
                       "defaultSelectedRowIndices": [
                         0
@@ -269,12 +266,11 @@
                         "cust_id",
                         "order_date",
                         "order_id",
-                        "order_status",
-                        "quantity"
+                        "order_status"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 30,
+                      "bottomRow": 34,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -405,35 +401,6 @@
                           "sticky": "",
                           "validation": {},
                           "cellBackground": ""
-                        },
-                        "quantity": {
-                          "allowCellWrapping": false,
-                          "index": 4,
-                          "width": 150,
-                          "originalId": "quantity",
-                          "id": "quantity",
-                          "alias": "quantity",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "number",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "quantity",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"quantity\"]))}}",
-                          "sticky": "",
-                          "validation": {},
-                          "cellBackground": ""
                         }
                       },
                       "onRowSelected": "{{order_product.run()}}",
@@ -460,7 +427,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 32,
+                      "topRow": 34,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -477,9 +444,6 @@
                         },
                         {
                           "key": "tableData"
-                        },
-                        {
-                          "key": "primaryColumns.brought_id.computedValue"
                         },
                         {
                           "key": "primaryColumns.category.computedValue"
@@ -509,13 +473,13 @@
                           "key": "primaryColumns.prod_id.computedValue"
                         },
                         {
-                          "key": "primaryColumns.product_id.computedValue"
-                        },
-                        {
                           "key": "primaryColumns.rating.computedValue"
                         },
                         {
                           "key": "primaryColumns.reviews.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.quantity.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -553,14 +517,13 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1681913338231,
+                      "columnUpdatedAt": 1682008319512,
                       "defaultSelectedRowIndices": [
                         0
                       ],
                       "widgetName": "Table2",
                       "defaultPageSize": 0,
                       "columnOrder": [
-                        "brought_id",
                         "category",
                         "class",
                         "date_listed",
@@ -570,13 +533,13 @@
                         "page_views",
                         "price",
                         "prod_id",
-                        "product_id",
                         "rating",
-                        "reviews"
+                        "reviews",
+                        "quantity"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 43,
+                      "bottomRow": 62,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -588,35 +551,6 @@
                       "dynamicTriggerPathList": [],
                       "borderWidth": "1",
                       "primaryColumns": {
-                        "brought_id": {
-                          "allowCellWrapping": false,
-                          "index": 0,
-                          "width": 150,
-                          "originalId": "brought_id",
-                          "id": "brought_id",
-                          "alias": "brought_id",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "number",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "brought_id",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"brought_id\"]))}}",
-                          "sticky": "",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
                         "category": {
                           "allowCellWrapping": false,
                           "index": 1,
@@ -878,35 +812,6 @@
                           "validation": {},
                           "cellBackground": ""
                         },
-                        "product_id": {
-                          "allowCellWrapping": false,
-                          "index": 10,
-                          "width": 150,
-                          "originalId": "product_id",
-                          "id": "product_id",
-                          "alias": "product_id",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "number",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "product_id",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_id\"]))}}",
-                          "sticky": "",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
                         "rating": {
                           "allowCellWrapping": false,
                           "index": 11,
@@ -961,6 +866,35 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reviews\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
+                        },
+                        "quantity": {
+                          "allowCellWrapping": false,
+                          "index": 9,
+                          "width": 150,
+                          "originalId": "quantity",
+                          "id": "quantity",
+                          "alias": "quantity",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "quantity",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"quantity\"]))}}",
                           "sticky": "",
                           "validation": {},
                           "cellBackground": ""
